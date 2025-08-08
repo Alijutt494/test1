@@ -91,7 +91,7 @@ export default function Profile() {
 
               pattern: {
                 value: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/i,
-                message: "Please enter valid email adress to ensure its you",
+                message: "Please enter valid email bhaya g",
               },
             })}
             className="w-full"
@@ -107,7 +107,7 @@ export default function Profile() {
           <input
             type="password"
             {...register("password", {
-              required: "Please enter password",
+              required: "Please enter password strongly",
               minLength: {
                 value: 6,
                 message: "Password is more than 5 chars",
