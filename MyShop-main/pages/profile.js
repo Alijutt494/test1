@@ -110,7 +110,7 @@ export default function Profile() {
               required: "Please enter strongly",
               minLength: {
                 value: 6,
-                message: "Password is more than 5 characters",
+                message: "Password is no more 5 characters",
               },
             })}
             className="w-full"
