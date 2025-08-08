@@ -107,7 +107,7 @@ export default function Profile() {
           <input
             type="password"
             {...register("password", {
-              required: "Please enter password strongly",
+              required: "Please enter strongly",
               minLength: {
                 value: 6,
                 message: "Password is more than 5 characters",
