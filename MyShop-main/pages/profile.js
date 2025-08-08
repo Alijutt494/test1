@@ -91,7 +91,7 @@ export default function Profile() {
 
               pattern: {
                 value: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/i,
-                message: "Please enter valid email",
+                message: "Please enter valid email adress to ensure its you",
               },
             })}
             className="w-full"
